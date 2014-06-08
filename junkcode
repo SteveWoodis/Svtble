@@ -1,0 +1,31 @@
+//<header> - defines the header of the page
+<footer> - defines the footer of the page
+<nav> - defines a section dedicated to links that are used to navigate the site
+<main> - defines teh main body of content
+<article> - defines the beginning and ending of an article
+
+<section> - Not interchangeable with divs! Section tags are used to group "thematic content,
+typically with a heading." You should not use the section in order to group unrelated items
+or to wrap them simply to add styling (that's what divs are for). Make sure that you include
+the heading inside of the section tags. Also do not use a section tag if any of the other tags
+would be more appropriate.//
+
+<section id="main" class="home">
+			<div class="big">
+				<aside id="right_menu">
+
+					<ul id="sideways">
+						<li><a href="https://www.svtble.com" class="header_link">SVTBLE</a></li>
+						<li class><a href="https://www.svbtle.com/magazine" style="text-decoration:none;">magazine</a></li>
+						<li><a href="https://www.svtble.com/about" style="text-decoration:none;">about</a></li>
+						<li><a href="https://www.twitter.com/svtble" style="text-decoration:none;">@svbtle</a></li>
+						<li><a href="https://www.svbtle.com/feed" style="text-decoration:none;">rss feed</a></li>
+						<li><a href="mailto:hello@svtble.com?subject=Hi">say hi</a></li>
+						<br>
+						<li><a href="https://www.svtble.com/signup" style="text-decoration:none;">sign up</a></li>
+						<li><a href="https://www.svtble.com/login" style="text-decoration:none;">log in</a></li>
+
+					</ul>
+				</aside>
+			</div>
+		</section>
